@@ -1,7 +1,7 @@
 var dates=new Date();
 document.write("today date is"+dates.getDate())
 document.write("<br>");
-let time=dates.setTime(16);
+let time=dates.setTime(parseInt(prompt("enter time")));
 if(time>0&&time<12){
   document.write("morning")
 }
